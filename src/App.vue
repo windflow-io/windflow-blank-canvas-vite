@@ -1,12 +1,12 @@
 <template>
-    <section class="flex flex-col items-center w-full mt-12">
-        <img alt="Vue logo" src="./assets/logo.png" class="w-1/5" />
-        <HelloWorld msg="Hello Vue 3 + Vite" />
-    </section>
+    <windflow-layout></windflow-layout>
+    <windflow-magic-toolbar></windflow-magic-toolbar>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+    import WindflowMagicToolbar from '/src/components/WindflowMagicToolbar.vue'
+    import WindflowLayout from '/src/components/WindflowLayout.vue';
+
 
 </script>
 
