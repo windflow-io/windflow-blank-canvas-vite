@@ -1,15 +1,15 @@
 <template>
     <div class="absolute bg-gray-100 rounded-md top-0 left-0 top-0 ml-10 mt-10 bg-white shadow-md flex flex-row items-center justify-center text-gray-600 text-lg py-3">
-        <div class="pl-4 pr-3 py-1 border-r border-gray-300 flex cursor-move"><grip-vertical-icon/></div>
-        <button class="py-1 px-3 border-r border-gray-300 flex flex-col"><plus-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><edit-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><code-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><palette-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><trash-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><save-icon/></button>
-        <button class="py-1 px-3 border-r border-gray-300 flex"><upload-icon/></button>
-        <button class="py-1 px-3 flex border-r border-gray-300"><cog-icon/></button>
-        <button class="py-1 pl-3 pr-4 flex"><times-icon/></button>
+        <div class="pl-3 pr-2.5 py-1 border-r border-gray-300 flex cursor-move"><grip-vertical-icon/></div>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex flex-col"><plus-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><edit-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><code-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><palette-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><trash-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><save-icon/></button>
+        <button class="py-1 px-2.5 border-r border-gray-300 flex"><upload-icon/></button>
+        <button class="py-1 px-2.5 flex border-r border-gray-300"><cog-icon/></button>
+        <button class="py-1 px-2.5 pr-3 flex"><times-icon/></button>
     </div>
 </template>
 
