@@ -20,6 +20,10 @@
                 <code-icon/>
             </windflow-button>
 
+            <windflow-button @mouseover="statusbarText = 'Edit theme colours'" @mouseout="statusbarText = ''">
+                <palette-icon/>
+            </windflow-button>
+
             <windflow-button @mouseover="statusbarText = 'Remove component'" @mouseout="statusbarText = ''">
                 <trash-icon/>
             </windflow-button>
@@ -51,19 +55,21 @@ import UploadIcon from '/src/components/core/icons/UploadIcon.vue'
 import TimesIcon from '/src/components/core/icons/TimesIcon.vue'
 import WindflowButton from '/src/components/core/WindflowButton.vue'
 import GripVerticalIcon from "/src/components/core/icons/GripVerticalIcon.vue";
+import PaletteIcon from "@/components/core/icons/PaletteIcon.vue";
 
 
 export default {
     name: 'WindflowMagicToolbar',
     components: {
+        PaletteIcon,
         GripVerticalIcon,
-        CodeIcon, PlusIcon, EditIcon, SaveIcon, TrashIcon, UploadIcon, TimesIcon, WindflowButton
+        CodeIcon, PlusIcon, EditIcon, SaveIcon, TrashIcon, UploadIcon, TimesIcon, WindflowButton,
     },
     data() {
         return {
             statusbarText: '',
-            positionX:'200',
-            positionY:'200',
+            positionX:'220',
+            positionY:'350',
             mouseOffsetX:0,
             mouseOffsetY:0,
         }
