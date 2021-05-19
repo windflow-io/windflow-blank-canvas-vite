@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex flex-col items-center justify-center py-2 w-10 rounded" :class="selected || 'hover:bg-gray-200'">
+    <div class="relative flex flex-col items-center justify-center py-1 w-7 mr-1 rounded" :class="selected || 'hover:bg-gray-200'">
         <button class="flex flex-col" v-if="action"><slot/></button>
         <div class="flex flex-col" v-else><slot/></div>
     </div>

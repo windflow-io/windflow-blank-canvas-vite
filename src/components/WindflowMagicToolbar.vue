@@ -1,12 +1,11 @@
 <template>
     <div ref="windflowMagicToolbar" class="absolute bg-gray-100 rounded-md shadow-md flex flex-col items-center justify-center text-gray-600 text-lg py-2" :style="{left:positionX + 'px', top:positionY + 'px'}">
         <div class="flex flex-row">
-
-            <windflow-button class="cursor-move" @mousedown="dragDown($event)">
+            <windflow-button class="cursor-move ml-1" @mousedown="dragDown($event)">
                 <grip-vertical-icon/>
             </windflow-button>
 
-            <div class="w-0 border-r h-5 mt-2 border-gray-500"></div>
+            <div class="w-0 mr-1 border-r py-2 border-gray-500"></div>
 
             <windflow-button @mouseover="statusbarText = 'Add component'" @mouseout="statusbarText = ''">
                 <plus-icon/>
