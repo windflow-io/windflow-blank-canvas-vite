@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@windflow/windflow-magic-toolbar": "^1.0.7",
+    "@windflow/windflow-magic-toolbar": "^1.0.10",
     "vue": "^3.0.5"
   },
   "devDependencies": {
