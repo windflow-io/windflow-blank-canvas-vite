@@ -1,5 +1,5 @@
 <template>
-    Toolbar
+    <h1 class="text-white text-2xl">Welcome </h1>
     <windflow-magic-toolbar/>
 </template>
 
@@ -9,7 +9,10 @@
 
     export default {
         name: 'App',
-        components: {WindflowMagicToolbar}
+        components: {WindflowMagicToolbar},
+        mounted() {
+            document.body.classList.add('bg-gray-900');
+        }
     }
 
 </script>

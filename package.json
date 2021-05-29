@@ -1,21 +1,21 @@
 {
-  "name": "windflow-blank-canvas-vite",
-  "version": "1.0.8",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "@windflow/windflow-magic-toolbar": "^1.0.10",
-    "vue": "^3.0.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
-    "@vue/compiler-sfc": "^3.0.5",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.13",
-    "tailwindcss": "^2.1.2",
-    "vite": "^2.2.3"
-  }
+    "name": "windflow-blank-canvas-vite",
+    "version": "1.0.8",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "@windflow/windflow-magic-toolbar": "file:../windflow-magic-toolbar",
+        "vue": "^3.0.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.2.2",
+        "@vue/compiler-sfc": "^3.0.5",
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.13",
+        "tailwindcss": "^2.1.2",
+        "vite": "^2.2.3"
+    }
 }

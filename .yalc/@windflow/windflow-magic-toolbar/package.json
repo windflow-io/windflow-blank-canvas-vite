@@ -1,0 +1,35 @@
+{
+    "name": "@windflow/windflow-magic-toolbar",
+    "version": "1.0.13",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/windflow-magic-toolbar.umd.js",
+    "module": "./dist/windflow-magic-toolbar.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/windflow-magic-toolbar.es.js",
+            "require": "./dist/windflow-magic-toolbar.umd.js"
+        }
+    },
+    "description": "The Windflow Magic Toolbar allows one add #edit to a url and visually manage and edit any components or its data.",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "serve": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/windflow-io/windflow-magic-toolbar.git"
+    },
+    "dependencies": {
+        "vue": "^3.0.5"
+    },
+    "author": "Mark van Wyk",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/windflow-io/windflow-magic-toolbar/issues"
+    },
+    "homepage": "https://github.com/windflow-io/windflow-magic-toolbar#readme",
+    "yalcSig": "c963d81c4cc766c379ccb77a439e950e"
+}
